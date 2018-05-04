@@ -24,31 +24,61 @@ nav{
     font-family: 'Monoton', cursive;
     font-size: 193px;
     /*! grid-column: 2/3; */
-    position: fixed;
+    /*! position: relative; */
     
     margin-left: 2%;
+    margin-top: 1%;
+    padding-top: 10%;
 }
 
 .first-section>p{
     float: right;
     font-family: 'Fredericka the Great', cursive;
     font-size: 60px;
-    margin-top: 15%;
-    margin-right: 10%;
+    margin-top: -25%;
+    margin-right: 30%;
+    color: wheat;
 }
 
 .tagline{
     font-family: 'Fredericka the Great', cursive;
     font-size: 25px;
     float: right;
-    margin-top: 20%;
-    margin-right: -40%;
+    margin-top: -20%;
+    margin-right: 30%;
+    color: aquamarine;
 }
 
 .first-section{
-    background: url('../src/ba.jpg');
+    background: url('../src/pic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /*! background-color: ; */
-    height: 500px;
+    height: 750px;
+    margin-left: -1%;
+}
+
+.navbar>button:hover{
+    background-color: #764B8E;
+    cursor: pointer;
+}
+
+.aboutme-section{
+    margin-left: -0.5%;
+    margin-top: -1.999%;
+    background-color: #764B8E;
+    height: 257px;
+}
+
+.aboutme-section>h1{
+    font-family: 'Lobster',cursive;
+    font-size: 45px;
+    margin-left: 50%;
+}
+
+.aboutme-section>p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    text-align: justify;
+    
 }
