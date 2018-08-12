@@ -8,10 +8,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link jkj-home-btn" href="#" style="color: #fff;">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link jkj-home-btn" href="#" style="color: #fff;" @click="selectedComponent='home'">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">About Me</a>
+            <a class="nav-link abtme-link" href="#" style="color: #fff;" @click="selectedComponent='aboutme'">About Me</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#" style="color: #fff;">Accomplishments</a>
@@ -22,15 +22,38 @@
         <li class="nav-item">
             <a class="nav-link" href="#" style="color: #fff;">Contact</a>
         </li>
+        <keep-alive>
+        <component :is="selectedComponent">
+
+        </component>
+        </keep-alive>
     </ul>
   </div>
 </nav>
     </div>
 </template>
 
+<script>
+    import home from './home.vue'
+    import aboutme from './aboutme.vue'
+    export default{
+      data: function () {
+        return {
+          selectedComponent: 'home'
+        }
+      },
+      components: {
+        home: home,
+        aboutme: aboutme
+      }
+    }
+</script>
 <style>
 .jkj-home-btn{
     margin-left: 55vw;
+}
+.navbar-brand{
+    margin-top: -45vw;
 }
 .navbar{
     background-color: #251e3e;
@@ -47,6 +70,9 @@
 .navbar-brand{
     font-family: 'Monoton', cursive;
     font-size: 1.8em;
+}
+.abtme-link{
+    width: 85px;
 }
 @media screen and (max-width: 992px){
     .jkj-home-btn{
