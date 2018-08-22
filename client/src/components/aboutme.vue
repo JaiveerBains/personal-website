@@ -22,7 +22,10 @@
                 </p>
             </div>
             <div class="row contact-me-btn animated fadeInUp">
-                <a class="jkj-contact-link"> &nbsp Contact Me </a>
+                <a class="jkj-contact-link" href="#"> &nbsp Contact Me </a>
+            </div>
+            <div class="abtme-img">
+                <img src="../assets/aboutus.svg" alt="About Me SVG" class="abtme-svg">
             </div>
         </div>
     </div>
@@ -30,32 +33,39 @@
 
 <style>
 .jkj-abtme-header{
-    margin-left: -66vw;
-    margin-top: -30vw;
     font-family: 'Amaranth', sans-serif;
+    margin-top: 10vw;
+    color: #fff;
 }
 .jkj-abtme-desc{
-    margin-left: -61vw;
-    margin-top: -25vw;
     font-family: 'Enriqueta', sans-serif;
+    color: #fff;
 }
 .contact-me-btn{
-    margin-left: -51vw;
-    margin-top: -6vw;
     height: 50px;
 }
 .jkj-abtme-section{
-    margin-top: 47vw;
+    background-color: #251e3e;
+    height: 700px;
 }
 .jkj-contact-link{
     background-color: #651e3e;
     width: 104px;
     height: 30px;
     border-radius: 21px;
+    color: #fff;
 }
 .jkj-contact-link:hover{
     cursor: pointer;
     background-color: #851e3e;
+    color: #fff;
+    text-decoration: none;
+}
+.abtme-svg{
+    height: 500px;
+    width: 500px;
+    margin-left: 40vw;
+    margin-top: -30vw;
 }
 </style>
 

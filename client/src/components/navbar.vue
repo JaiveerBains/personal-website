@@ -14,7 +14,7 @@
             <a class="nav-link abtme-link" href="#" style="color: #fff;" @click="selectedComponent='aboutme'">About Me</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Accomplishments</a>
+            <a class="nav-link" href="#" style="color: #fff;" @click="selectedComponent='accomp'">Accomplishments</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#" style="color: #fff;">Projects</a>
@@ -22,20 +22,22 @@
         <li class="nav-item">
             <a class="nav-link" href="#" style="color: #fff;">Contact</a>
         </li>
-        <keep-alive>
+        
+    </ul>
+  </div>
+</nav>
+    <keep-alive>
         <component :is="selectedComponent">
 
         </component>
         </keep-alive>
-    </ul>
-  </div>
-</nav>
     </div>
 </template>
 
 <script>
     import home from './home.vue'
     import aboutme from './aboutme.vue'
+    import accomp from './accomp.vue'
     export default{
       data: function () {
         return {
@@ -44,16 +46,14 @@
       },
       components: {
         home: home,
-        aboutme: aboutme
+        aboutme: aboutme,
+        accomp: accomp
       }
     }
 </script>
 <style>
 .jkj-home-btn{
     margin-left: 55vw;
-}
-.navbar-brand{
-    margin-top: -45vw;
 }
 .navbar{
     background-color: #251e3e;
