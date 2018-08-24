@@ -4,7 +4,7 @@
         <h3 class="accomp-quote animated fadeInLeft"><i>Every Accomplishment starts with the decision to try....</i></h3>
         <div class="main-timeline animated fadeIn">
     <div class="timeline">
-        <a href="#" class="timeline-content">
+        <a href="http://madhacks.co" class="timeline-content">
             <span class="year">August 2018</span>
             <h3 class="title">CEO - Mad.Hacks</h3>
             <p class="description">
@@ -22,7 +22,7 @@
         </a>
     </div>
     <div class="timeline">
-        <a href="#" class="timeline-content">
+        <a href="http://madlabs.xyz" class="timeline-content">
             <span class="year">March 2018 - Present</span>
             <h3 class="title">Intern @ MadLabs Inc.</h3>
             <p class="description">
@@ -31,7 +31,7 @@
         </a>
     </div>
     <div class="timeline">
-        <a href="#" class="timeline-content">
+        <a href="https://ajce.in/" class="timeline-content">
             <span class="year">July - December 2017</span>
             <h3 class="title">Workshops Attended</h3>
             <p class="description">
@@ -46,7 +46,7 @@
         </a>
     </div>
     <div class="timeline">
-        <a href="#" class="timeline-content">
+        <a href="https://ajce.in/cse/index.html" class="timeline-content">
             <span class="year">June 2017</span>
             <h3 class="title">Joined for B.Tech CSE at AJCE</h3>
             <p class="description">
@@ -64,7 +64,7 @@
         </a>
     </div>
     <div class="timeline">
-        <a href="#" class="timeline-content">
+        <a href="http://www.indianschoolsalalah.com" class="timeline-content">
             <span class="year">2016</span>
             <h3 class="title">Red House Boy Captain</h3>
             <p class="description">

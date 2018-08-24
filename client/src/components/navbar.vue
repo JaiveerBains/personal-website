@@ -17,7 +17,7 @@
             <a class="nav-link" href="#" style="color: #fff;" @click="selectedComponent='accomp'">Accomplishments</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Projects</a>
+            <a class="nav-link" href="#" style="color: #fff;" @click="selectedComponent='projects'">Projects</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#" style="color: #fff;">Contact</a>
@@ -38,6 +38,7 @@
     import home from './home.vue'
     import aboutme from './aboutme.vue'
     import accomp from './accomp.vue'
+    import projects from './projects.vue'
     export default{
       data: function () {
         return {
@@ -47,7 +48,8 @@
       components: {
         home: home,
         aboutme: aboutme,
-        accomp: accomp
+        accomp: accomp,
+        projects: projects
       }
     }
 </script>
