@@ -22,7 +22,7 @@
                 </p>
             </div>
             <div class="row contact-me-btn animated fadeInUp">
-                <a class="jkj-contact-link" href="#"> &nbsp Contact Me </a>
+                <a class="jkj-contact-link" href="#"> &nbsp; Contact Me </a>
             </div>
             <div class="abtme-img">
                 <img src="../assets/aboutus.svg" alt="About Me SVG" class="abtme-svg">
@@ -46,7 +46,7 @@
 }
 .jkj-abtme-section{
     background-color: #251e3e;
-    height: 700px;
+    height: 100vh;
 }
 .jkj-contact-link{
     background-color: #651e3e;

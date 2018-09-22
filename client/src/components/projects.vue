@@ -69,6 +69,7 @@
 .projects-section{
     background-color: #251e3e;
     overflow-x: hidden;
+    height: 146vh;
 }
 .emptysect{
     background-color: #251e3e;

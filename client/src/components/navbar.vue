@@ -136,6 +136,9 @@
 .abtme-link{
     width: 85px;
 }
+.jkj-navbar{
+    height: 100vh;
+}
 @media screen and (max-width: 992px){
     .jkj-home-btn{
         margin-left: 0vw;

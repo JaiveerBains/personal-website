@@ -79,6 +79,7 @@
 <style>
 .accomp-section{
     background-color: #251e3e;
+    height: 160vh;
 }
 .accomp-title{
     font-family: 'Amaranth', sans-serif;

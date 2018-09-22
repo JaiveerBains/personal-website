@@ -22,7 +22,7 @@
 <style>
 .jkj-homepg{
     background-color: #251e3e;
-    height: 734px;
+    height: 100vh;
 }
 .landing_pg_vector{
     height: 501px;
@@ -47,6 +47,47 @@
     border-radius: 75px;
     margin-top: 8vw;
     margin-left: 5vw;
+}
+
+/*Media Queries*/
+/*For Large Screens(above 1500px)*/
+@media screen and (min-width: 1920px){
+    .landing_pg_vector{
+        height: 525px;
+        width: 658px;
+        margin-left: 39vw;
+        margin-top: -9vw;
+    }
+    .jkj-tagline{
+        margin-left: -29vw;
+    }
+    .jkj_pic{
+        margin-top: 15vw;
+    }
+}
+
+@media screen and (min-width: 1680px){
+    .jkj-tagline{
+        margin-left: -32vw;
+    }
+    .jkj_pic{
+        margin-top: 15vw;
+    }
+    .landing_pg_vector{
+        margin-top: -12vw;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .jkj-tagline{
+        margin-left: -34vw;
+    }
+    .landing_pg_vector{
+        margin-top: -14vw;
+    }
+    .jkj_pic{
+        margin-top: 14vw;
+    }
 }
 </style>
 
