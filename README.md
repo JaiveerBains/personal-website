@@ -9,3 +9,4 @@ Developed using VueJS. :fire: :smiley:
 4. Run it by npm run dev.
 5. Create a branch in your forked repo.
 6. Send a pull request.
+7. you are done
